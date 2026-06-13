@@ -1,4 +1,4 @@
-const API = 'http://localhost:5000/api';
+const API = 'https://fitpulse-api-g7rp.onrender.com/api';
 
 export function getToken() { return localStorage.getItem('fp_token'); }
 export function setToken(t) { localStorage.setItem('fp_token', t); }
